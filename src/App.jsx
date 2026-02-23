@@ -181,7 +181,10 @@ export default function App() {
             </div>
           </section>
 
-          <div className="footer">© {new Date().getFullYear()} Glow’d Up Booking</div>
+          <div className="footer">
+            © {new Date().getFullYear()} Glow’d Up Booking •{" "}
+            <a href="/privacy.html">Privacy Policy</a>
+          </div>
         </div>
       </main>
     </>
