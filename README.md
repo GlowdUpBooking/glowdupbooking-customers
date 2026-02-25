@@ -1,3 +1,29 @@
+# Glow’d Up Booking — Customer Web
+
+## Universal Links (iOS)
+To open the iOS app from `glowdupbooking.com` links and fall back to web:
+
+1) Keep the AASA file in place:
+`/public/.well-known/apple-app-site-association`
+
+2) Ensure it’s served at:
+- `https://glowdupbooking.com/.well-known/apple-app-site-association`
+- `https://www.glowdupbooking.com/.well-known/apple-app-site-association`
+
+3) Verify the app config includes associated domains:
+- `applinks:glowdupbooking.com`
+- `applinks:www.glowdupbooking.com`
+
+Current AASA app ID:
+`593A59TSFP.com.kamaralabs.glowdupbooking`
+
+Paths handled:
+- `/professional/*`
+- `/book/*`
+
+Notes:
+- The AASA file must be served as `application/json` with no redirects.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

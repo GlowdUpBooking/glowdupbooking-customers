@@ -183,7 +183,8 @@ export default function App() {
 
           <div className="footer">
             © {new Date().getFullYear()} Glow’d Up Booking •{" "}
-            <a href="/privacy.html">Privacy Policy</a> • <a href="/terms.html">Terms of Use</a>
+            <a href="/privacy.html">Privacy Policy</a> • <a href="/terms.html">Terms of Use</a> •{" "}
+            <a href="/support">Support</a>
           </div>
         </div>
       </main>

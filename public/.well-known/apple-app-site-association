@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "593A59TSFP.com.kamaralabs.glowdupbooking",
+        "paths": [
+          "/professional/*",
+          "/book/*"
+        ]
+      }
+    ]
+  }
+}
